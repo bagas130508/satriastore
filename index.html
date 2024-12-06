@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sando - Sandwich Lezat dan Segar untuk Setiap Momen">
+    <title>Sando - Sandwich Lezat</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.hero {
+    background: url('sandwich-hero.jpg') no-repeat center center/cover;
+    height: 400px;
+    text-align: center;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero h1 {
+    font-size: 48px;
+}
+
+.hero p {
+    font-size: 24px;
+}
+
+.cta {
+    background-color: #f7b500;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+#menu .menu-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin: 15px 0;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+#menu .menu-item h3 {
+    font-size: 24px;
+    color: #333;
+}
+
+#menu .menu-item p {
+    font-size: 16px;
+    color: #555;
+}
+
+#menu .menu-item span {
+    font-size: 20px;
+    color: #f7b500;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+.foto{
+display:flex;
+    justify-content:center;
+}
+.img{
+    width: 300px;
+    
+}</style>
+</head>
+<body>
+    <!-- Navbar -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Beranda</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#about">Tentang</a></li>
+                <li><a href="#contact">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Halaman Utama -->
+    <section id="home">
+        <div class="hero">
+            <h1>Selamat Datang di Sando</h1>
+            <p>Sandwich Lezat dan Segar untuk Setiap Momen</p>
+            
+        </div>
+    </section>
+   <div class="foto"><img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAKgBKwMBIgACEQEDEQH/xAAbAAABBQEBAAAAAAAAAAAAAAACAAEDBQYEB//EAEMQAAEDAgMFBAcECAUFAQAAAAEAAgMEEQUSIQYTIjFBMlFhcRQjQlJigZGhscHRBxUzU4Lh8PE0Q3KSwiREc6KyFv/EABoBAQADAQEBAAAAAAAAAAAAAAABAwQCBQb/xAAoEQADAAICAgIBBAIDAAAAAAAAAQIDESExBBIiQQUTUWFxodEUMkL/2gAMAwEAAhEDEQA/APUShKKyVlIASsiKYoBgE5ThIqQBZKydMSoAye6a6ZSCQFPdRhKN8b3ODJGvc02cGuBIPce4qASXRAoQETQgCSSTIAgnQgogUA4RBCEaAcJEJBOgGslZOkgGsiTJwgEhJRkIbIAeiZEUyAGyRanSKAicEwRlCgEU10iUJKgBgosyhBRXQDNKe6ZJSBFK6SGyAdC4pEpKQMVQS7YYHHXmiFZnkH7uMuYPNwVD+kTGqqDDjFS8LHymPhdY2A/E/YvNMJxCLfSGV2V2QhrneIWbLlcvUnp+D4eLKm8lf0kel1m3E1VOGYNHCyNruKSbiPgcoPLx1Rt25kM7KfdQO3T/AF0ga4Zh3MHf87Lz6mxN9O+K7+Fp7WXUBdkk8EEDizgc/wBaH5iQ53d4LF+vl9t/RznwKMrxpcfX2zU7QfpKpWMMGDFzpchEjpmEbo9PAlYTCcQnbUvkNTOxz5C9zo5DfM46usPwVXi8sVVO18OZpLSHtFtT3n800dLXU8bZnQ543DM2RmrQtLt0kzb4s4cORw+Xvs9u2J2gkro30ldJvZIxdk3MuHjZa5ha7iY7MvIv0YVTpsYAf+6cCe4fkvS8He6Wpqnx/sCQB3EjmR+avxNueTF+SxTGb4rSfJZp7JIgrTzhsqIBEAkEAwRJAIkA1krIgEG9iuRm5DzXFZJn/s9EpN9DprJNka5od3+8jsk3NdMOWuwQnTkJl2QMSkmISQCKFOkgGQkpyhKARKEpnJgUA9kNkRSAUADKlZSWT5UBG5CpLJiFIASsiTXQDWThqRKWZAZDbHBKWqbK+ofK32/V21JFjzXmWJbOxuJbT4xTsynhjqIHx2v4gOBXt2MRNqaZzfab93VeVYxQy00zt9xN5t8VTcrezRgy1D+Jkhg2ItzR+l0cjfhqGn77FWuH4HGKV0tdo8Ntwy31PW/IfXolCWtlfF2cw/sumGR0Vt0zS/Fm6+az5I30b6u7her53+5UsomYbizomVtBLBO0Nc2dj72PwgHl33V3htBR0VS1jamoLLk7iKIBp+bjoPkuB0DTXPkyrvpWPfMu1PQnF6377N7sphmFiWSRlCxkmTVzpM5cL/IW8LLX0bTZzxwtOg8gslslTztY+R8XDbK13vHwWxiZla1vuq+OEYvKe8nZKEsqYFCZsr8i6qlK2zMlvhE17Ak8hqudlfTPtu52uu6wy66rP7UVbqh5pA58cMIzSN/eHosz+u4aWtgcX6MkbcZhfn3D8Vhvy37ahHSnT5PTmPzId61z8g6nKT3FDE9pkdGHcJ1HkVVvqTHXzRdM1x4HyVlZmo57LJxpvg6ppHDTPo0+y5C17WSBvK47SevDszZWcnjXuv4qB7s0Q7Nvab3eS8DLdTlaZtlJyjoY10cxe13AdDfl9FYsPAFSNkZDGwhrmuJ1HerKjkzjtXXq+HmTW/tdmfNB1FNZJ3NO0r1TGCQhspChUgBJFZKyAGyYoiE1kABamyoymIQAFqVkVk9lAGASTpWQEWZC4oCgKkBueozIhdmULw5AE+oXPLW/EoZg5cLwhJ0TVz/YUTYo66PK5rXS+7zuPDxXK5yBk2R+dj8rmqDrRhccoZaXFJWTZnFzs2bLbyUUMTrdp63eMOp8Wa01TWsly23mUrOuwWRsg3c8TmdbOH5qqpbNeDJMdlfhGE1ddXCGjyWIu7eXsLd9gbd11tcJ2djpskta5pd7Ucevyvy+iuMFw7DsOYH01PcvaA5znEl3jztf6LrxCl3ZL29l/EHNXk+f5WXFHti+uy7HXs9MZtVGC1sUeVo4WtyrvopmyBw9pvPxCpoXZ3ZUoKjdVTXNzaHKvJ8f8hleVVkraZ3eCfVqUaKy4Zn3rC1/urrboW8WYSatVNisu5r/AOEL6bNk3iMETqzoxOjbiOEPLmZXxCw4uY8f7rAUOF0sdQ+SpDWSNcdegPfZelYS5he6N2UsmucvNZnaHZsNmkfHA8xuOha29j36LK54VIi18i9waeCspmyQPa6WEBsmXqOhXJjbfR62Opb2ZDlc3ud/ZZ3ZqKTB9oW5N5knGSYG9yfZPJbnE6cV1HLHkbxi7COd+9dUlUHWO9Miw2ZtREGTZXNJsOHsojQStlLQGFrdWuzW+qzuCVjd4Ypm8QOozdkqwxt0ldhMsbHkvjsXMIvcA/aqljjMk67Rek1Wk+y4/VrJA1z+LI7pySdC+ncCNWE8m9FiQxtMGup7wOGt4XZPtC6YtoMTpmkPcKtvRr7a/wAQFx9qvl45WtaNN/j8z5l7/wAG2AzNCLKqDZ3aSLFZ30slPLS1UYuY3m4I7wev0WhstuK01o8zPivFWqWgLJWR2TZVaUgWTp7JkA1kxKcplAGTFOQmCkAnmnsnSUAYBOkE6A5ChIUhSUghcFG5i6S1LKgOF8Of2VA6jz+yrUMT5UBSnDUwwpvuq7snQnZTNweL22qePCIGf5TVZ2SQnbKVuWCqlg6Ds/guyMekYe+MObvYjmHD9wXFi5yV7HeAUtJIIakSuc7I/wCf2rzM+NXuX0+DTFcbODI5kkmTiGXiCLJmLXcWbS7fDvWiOG00jc7OF5F25Xf1oqDabH6bZzdsdT7+pkFmRiwLvEknkvJn8M1zd8fwbIzPJSmFtlvDM+KkEWTMBq09yptoXu9LjL28L2ABUdP+kCb0lvplA1tO6xdIx3ZHgDa61mL0zMQwwS00jZAW7yN2a4PhfyXqOPh6p7X+ivJhvDS91rZzYVO52UfudczTr/NaqCXfRNkY3Rw9233rz/Bq3dytA4b6BaynqRHG5r5ehNu76pgvXBTljbObaLGIaSaOmZEZJnanLyaPNBhGOx1U3oU0T45y0ujdmu2QefQ+B+V1kxUVFfiEs0wcSSbO+HpbmLJ5RIwNewujnhdo5vNvcp/V+XPR6K8GP09f+jqxVrqDaGZmXK2UCRvLkeY0VxT5n7p7nXY8lvkuZzv/ANNgW+LSMSozYlltfLvBHRceC1LpYzHxB3QHQ36ggrnXpfHTMfPT7QNTC2nrJqaR2U5uE9bd65YsInikdUQvc9rjxjMCD5BaLE6RuJ08VZRCV8sbcro26ZvBHg+F1jozJW5oGkcMbXAkf6jqApvF7PjpnoT5ynFvfPTRQ0EBkximlpoXZ4Txv3ZIDT0JC3sUrSwXc1pOluV/JBTUkVNTbqJjgzmbm5KrcbpGz4ZK1/HJFxMcDYgj+S0Y08ejy/Jz/rveui6TFYikxXEaJrWteJY7axzd3gVf4btHRV0jYZQ+nqDoGP5HyWpWmY3LLe6ElOmK7ORiUjySQlAJK6a6ZAPmTEpXTIAgU6C6e6gEATkJJFSBOTprJIB0wCQKe6ASYhEUBcgCXNU1TYjuo+KW3PoPP8lBiVduGtjZ+1k0Z18yVBRxZNHOc5x4nd6hsk5cVzAMke7M4m39dyekqMkeU9ga/LwU2OPz0oDG9lwP9FVdNJ6xudmZqyZV8i+HwaF+LQUeGT1UjnhtMwvcHdy8crK2qxjEKmtqNWvJMbdbRjpz1/Ba3bqOpdg0jab9kSDI0N5tBv5rI4e5rmu4G5ZG8GXkPDXksubI0lJ9B+MwTOOsv2PMXylkZ4o3wuYLa3+XMFbX9G2PObD+qat28LHWieLcu619CsoGiY02RrmkE3XVh9LJQ4xSboZap1QMrCNHC+h+ijDXy0afMxxlx6ZqcdpHYXiZmjb/ANPUElvg7qPxVmZ2z4Q6zuMNI+dlZ49hsGJUrmHhluTGWu9pZnZyrO8dBOcrrlpGtwfIpS9L2eBF75/YPAAAxsb25ZWgAjLz+mhCuqjDvSRpHzYQemvTmrDDJ4nOdTvy5mcQ7P3Ls3zGvyvc0EcnK2In15Z1l8u6v2S0ZzZzZ+bD8UmqXfsZYgxzWuNr3PLuVNjFEMBxVj4C5tLOS5heSbO6tuVuZKyNrC6E5yDcqv2ho24rhrmxuzOI3kNuYcP6sppRU6llLy3V+1EWFVYzRzRvZaQcY5WKHHdoX4bVPgcxoLmgxk3IN/yWd2cri+8EgdGSdQ7oQrDanDJ8V2da+nGaspXXZ5ciL6WVU3Xo0uzjLP2V7tr670tpcZnMa8CwbofC3NbMVUc8wGXV8YPm09F5XT7J10hbLiOJVD3cgyNwsB3X0/IL0TCy2OipwxhaYm7ouOug5XsuceR+2nWziZa7Oeuw4XdlGUeyqWpo3MOozBbLgmZ7LvFcNZRtdcr0J1c7K38XopMM2gnw47urLp6XoXdqMfktjDNFUxNlhdmjcAR3LEV1FbitfTklgGJyYbWshkN6aU5cvVhXctrhkPTN2UJSBFm24m2uErq04BSSumQDpk6a6gCslZK6a6AjsmumumKAIuQ3QEu9tOSpAeZLMoi5MZMiAke5QTTZFHPUZPfVVW1OhQEVNN6RWz1GbM0HI3wA7vncrufNk7CosJnyU5zdq5Riq0dxfyXBJYVz81NJ5KrikROrYmjIuFkmTsqnKudluN/RoYCKmkynLYaEObfMO46ocCwDCaaFwjoYjc3u9t3tJ+Icx5LgpKljXEnsHtK6wupzRiMxWY3R3cPELO3pmiclzLUssKehw5r/APDQf6i0E/U6qaevwulLW1FTBGBozNbQrKbV1dbSPYyB+WItJJ63HS/csdMxtW4zS1T2P6uzaHw1XNZvR6lFFZG3yz1uPEIaqDewOuxpy5hyKxW0J/VW0sdTFwxVbc4I5Fw5qfYPF6afPh0VZvXs1A0OnmPxVltnhc2IYHMyB156d2+jHvEcx9Fy93PJZio78LqY5pXOYGjO3nly2PgVHUPJcSXcbDlcHO5rN7HYqKqjaCfWR8raG3VaXEmcLauIXDuGQDr4+a83z4use5+jRGlfJEJNzILxZmu+i7cPqbiSFuuQ3DRzsqc1G8pifdJaeLW34oRIY5IZ6aTiYASNNelli8Xy3ifPRbeLaKvGqd+GY5voX3hqSZGt7ndRotRhlSJgGP4mTtIv3Kk22dG/DIKxjf2MoNtOEO5pbO1rauitE51oyHdqwsvblbaa+zO+VpnXVVMVM3I97GkXHE4c/miwXFWSTvigLX5m5gC4cVvD+uaye3mSPGC+73CeNrywgkE9dBquXA4aamxGnrKeslbO7/JawjP05u08OnzsqVCm97KHf0erQTsmaRYskB1YfwTSrloGndiSSmDL8r2v9i6XleziTS5KbabK+vj9W+6zGIwkyPHTothOLNt36rO4qG7s252XbRymaHZ6rdVYVG57uNoDXfRWSp9lYnR4Z5m6tiul0GEmTJlJA6YlJJQBXSuhSQEJchLkKElAESmLkDi5Cf8AapAnSO9hRuk4O0kVDI72UBFUPzsVTVScas5Qqmr7aAq252vnh9tmo8jy/EfRQtkl7L3LqqxKC2emDTPHyZ0e3q0+aZjIqpm/pjdp0eOrXDm0rjRJAHIA7JxM/uugwZFC9jmeyuaWyUzpp6pjw4sdcN7TeoVvSTPsd0/KWjVuliFmJGvB3sLsrm8h+as8NrA+RpF2yN5t6/LwWa4L5o00+6xTC3UssTw1zS1u8sCHDqCDqsHJsrTtqROGOzMNpGscb+BJv9y9Cw57d9lfykbeNzraju8/FU211OKGKSpdmyN1dZpAI77quk3H9EUlsraCKOiqGzRxetYQQ4Wv8zzW1gqmVMbZmOzX5t0vfuK8krMeOXJTOOUt4DkJP17l27F7SzsrxDUmV1HIDnzN1B7+XTzNlmiaW99Eqlsmr6eTZfa15jDxRTu3kZNrAHm36r0GlmcaN4hN94y7B9xVbtHQ0+L4UAHNdPGc0L79rwXPgtDXzUApKp+7p2jK4jRx8Lq94nkXBY7S7IZZ/RoTU1kG6YTZ2e1r/VVsddX1kjG0NA7d8jJKS0EeHVauiwOlpWNj9ZI0m43ry/L5XK72xxx6Na3h07KoxfiMUvdck15bfRQV5igpI48Ua6eZ7bsp6fidYeOn1NlWUWC4a+oIL8RoWSjstlyZj3HKb/W6VZKyr2nq3Nc14htH2rWsO5SPqpt5ePsDRd1kcPUpaRunxJcfy1v+i3i2QwmNnr2TVPjVTvfp5E2Vlh2F0NBf0Okgi7skYbp8llMUx2sw+OOaCTM64zMIuwtvrpz+ilx3aKQwwS0jnxNMQfwuPXlcLRPk4/X29dM8/wAjxLwyqb2mbQlAS4ad+q86pf0g19LK2PFaGN8PV8d2PPjbkfot9TVbK2ljqoXF0czQW3FtD3rVizRk6MY8x0J71S4k0SDK1tr6uPgFZ1UoaCT2QLfmq+hjNfViTlC1wsfeIVjZKRf4PGYsMiaWWJ1t3Du+Wi6roWCzMqEnLopS0Qw3FDdDdNmupAnO19pLOmLr6dyjc3Mb9yAmzJZlG1K6AjQlqlITFQCBIhTFItzqQQOHwqF0fwru3aDdoCtkZwKoxCN3a/utHLGq6rh4Pi17SAzj+Ni4MrxUmqonbmpHC9p7Eo7iOqsqmLcv/rRcM+V/Y7fvKGDtoMRp62RsFQ00lV+7fycfhP4HVWEmHLLGeGf1Fc2x97p/Jd1PV4rQ6UczauHrDNrp4HmFBJ2z4Y/2FXSUssL7uZq32m81eUu0uHyP3VeyWkl5cbczf9w5fMK4bT0lazPFJHIz3o3A/cuXKZPKKjBa+GSMU9S/dT3vHI1vUePJXb8UwrGIjhs88EsjrtMfPMLd3JcZ2bpHvsXOIdzauqnwDC4Rn9FY4t7LnKn9F74OvfaPMsSwWGasfFTva+nieWgnkPkVZ4NgVa13qaRzGAgCaVuXTwHVeixUFJG/NHTRMedc27CnyXVS8NN/J8fsc+xWYbROpoQx0j3d1+XyC7gMvCzopAzr3Isi2TKlaRDeyAucqfFsSdRt8leyM5rN7TUb3UUjo2ZnHuSiY7M5RGRm+rTcz1TzZjb6/bZRYzjEWGMawzWqHDQDXKPzVHNiW0EY9DoqMHKMoe1hDh5psO2MxXEJt9XPdGHniA1K82fGuqez6NeZgiOXv+CTA6DEtp8SG8fu6cHje7kB4d5VrtbhVXQ1DY2RyvpHMDGuYMxHhotds9g0WDQXzWa0aucpq3aXDIHbmKV1VNz3cDS/6nkFq/40eujyPL8uvIfPX7B7NUMkGA0kGINE0wboXs1A6A3+SmxTFqXDmASSAv5MiZq4/JUz8SxbE9IoxQxdLcTz59AuZgpMPlcAHVNYe0M2Y/M9FfMespIxdHextRiOV9VeGmB0jGhd5rRYdAGtbpZrRwty8lT4bS1Mz2TTjlqGgWDR4BaWFuWNdpDZK7shRuKMFRuUkDFASnJ1UWbjKAJK6ZKyAJJNdK6Ad2ZIBFZIBQAeBnwo7JZffRhqkEbmpWUia3tICF7VyVLOBy73KFzUBnaildUdtr2/13KnqqN0PsrYTQOfm4/uXLJQsye8pBiJoGP7TVxmOopuKnc4/C7l9Oi19VhWfsNVbPhsrPZUaBSMxFp4K6D+ItuP5I46Kmk9dh9Q+nd79NIWkfRS1NG5/C8vb/pVfLh+Tijzh3vM0P2KNAuoMR2hpP2WIR1TfdqIwftFiu6HbDFYf8XhEcnxQzFv2EH71lWyV9N2J3P+GRt/tUzMZqWftqVrv9LvwKE7NXFt9Tf9zg+JQ/EGtePsKndt9gQ/aemx+dE933ArIsx6H/Oglb/Df7kbcboPbb/uafyUA2I282byt/62VuntUsg/4pHbvZ7temSOv7tLKf8AismMXwv23tRfrbCf3sSkGpdt3gh4WGrkt7tK/wDELmm23pH/AOHwnEZh4tawH6lUP68wlntj+BpP4IJdpsPaz1MNQ/8Agt96As5NpMTmB9EwOCPXhdNUE/Y0fikKzaCpaN5UU9N/4IbH6m6oXbTz/wDbYcT4yyAD7LqM1+P1x9W+OBh/dR6/U6fYoBdyYVE9++xKqmm7zM8lv0OijdjOE0XqaRpqHD2YBw/M8vtXDTbM1da/PXPmnPfK4uH05LUYXsvFDl9X/wCqkgqYpMUxbRtqWnOmWDmR4uWjwXAmUrRcAOOvff5q4o8NbTizW6KwYxrB2VII4o2xMAyqTMmd8PJCQgCJQkpWTAoAXDQqIhynuhKAiR9AnKZAItULhPmOXJbopk6ASNpSSQBH/ciSSUAEtTXSSUgSFwSSQAFiB8fAkkgIjC3tIJKPepJKQV1RhTX/AAqudgGRgGbNmPtJJIScs2B/CuOXAZU6ShkHHJgVR7qhOCVHu/15pJIBhgFQ/wDykbNm6j3WpJIDqi2Tld2//ld0OxzHdvMkkgLKl2WpYbeqzK3p8HjhHBG1JJAd8FK1g7K6mRtGqZJAHdMUkkAKYpJIBuSFwZ2XczqkkgBzNHD3JXSSQDJ0kkAyV0kkB//Z" class="img">
+</div>
+    <!-- Menu -->
+    <section id="menu">
+        <h2>Menu Kami</h2>
+        <div class="menu-item">
+            <h3>sandwich anggur</h3>
+            <p></p>
+            <span>Rp 7,000</span>
+        </div>
+        <div class="menu-item">
+            <h3>sandwich stroberi</h3>
+            <p></p>
+            <span>Rp 7,000</span>
+        </div>
+        <div class="menu-item">
+            <h3>sandwich mangga</h3>
+            <p></p>
+            <span>Rp 7,000</span>
+        </div>
+    </section>
+
+    <!-- Tentang -->
+    <section id="about">
+        <h2>Tentang Sando</h2>
+        <p>Sando adalah tempat untuk menikmati sandwich lezat yang dibuat dengan bahan-bahan segar dan berkualitas. Kami berkomitmen untuk memberikan pengalaman makan yang menyenangkan dan memuaskan setiap pelanggan.</p>
+    </section>
+
+    
+        
+        <p> <a href="mailto:info@sando.com"></a></p>
+        <p></p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p></p>
+    </footer>
+</body>
+</html>
